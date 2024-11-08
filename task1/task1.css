@@ -1,0 +1,113 @@
+/* Ensure the body and html take up full height of viewport */
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box; /* Optional but helps with layout issues */
+}
+
+.main {
+    margin-top: 60px;
+    display: flex;
+    min-height: 100vh; /* Full viewport height */
+    width: 100%;
+    justify-content: center;
+}
+
+.parent-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 10px red dotted;
+    height: 600px;
+    width: 400px;
+}
+
+.upper-red {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(238, 63, 20);
+    border-bottom-left-radius: 20%;
+}
+
+.common {
+    color: white;
+}
+
+.point1 {
+    font-size: 30px;
+    font-weight: 900;
+    position: relative;
+    left: 20px;
+    top: 10%;
+}
+
+.point2 {
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    left: 4px;
+}
+
+.point3 {
+    font-size: 13px;
+    font-weight: 100;
+    position: relative;
+    top: 135px;
+    left: -110px;
+}
+
+.point4 {
+    position: relative;
+    top: 150px;
+    left: 25px;
+    margin-bottom: 20px;
+}
+
+.games-played {
+    font-weight: 300;
+    font-size: 11px;
+}
+
+._87 {
+    font-size: 23px;
+}
+
+img {
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    height: 400px;
+    width: fit-content;
+    transform: scaleX(-1);
+}
+
+.below {
+    padding: 5px;
+    margin-top: 30px;
+    height: 80px;
+    width: 80%;
+    border-radius: 15px;
+    color: rgb(238, 63, 20);
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.44);
+}
+
+.circle {
+    filter: brightness(0) saturate(100%) invert(24%) sepia(100%) saturate(6456%)
+        hue-rotate(360deg) brightness(97%) contrast(109%);
+    margin-top: 10px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: 3px red solid;
+    border-radius: 50%;
+}
