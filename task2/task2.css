@@ -27,7 +27,7 @@ body {
     font-weight: bold;
 }
 
-.nav a {
+.nav span {
     margin-left: 15px;
     color: black;
     text-decoration: none;
@@ -83,7 +83,7 @@ body {
 }
 
 .footer {
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     width: 80%;
